@@ -283,7 +283,7 @@ Create a new virtual environment if one doesn't already exist.
 
 If set to `false`, Poetry will not create a new virtual environment. If it detects an already enabled virtual
 environment or an existing one in `{cache-dir}/virtualenvs` or `{project-dir}/.venv` it will
-install dependencies into them, otherwise it will install dependencies into the systems python environment.
+install dependencies into them, otherwise it will install dependencies into the system's python environment.
 
 {{% note %}}
 If Poetry detects it's running within an activated virtual environment, it will never create a new virtual environment,
